@@ -1,0 +1,13 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.21.1",
+    "libraryName": "process-intelligence-map",
+    "libraryId": "2f8a4c8b-1d3e-4b5f-9a2c-6e7d8f9a0b1c",
+    "packageManager": "npm",
+    "isDomainIsolated": false,
+    "nodeVersion": "18.20.8",
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "process-intelligence-map",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">=18.17.1 <19.0.0"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "gulp bundle",
+    "clean": "gulp clean",
+    "test": "jest --passWithNoTests"
+  },
+  "dependencies": {
+    "@azure/msal-node": "^3.8.10",
+    "@microsoft/sp-core-library": "1.21.1",
+    "@microsoft/sp-lodash-subset": "1.21.1",
+    "@microsoft/sp-office-ui-fabric-core": "1.21.1",
+    "@microsoft/sp-property-pane": "1.21.1",
+    "@microsoft/sp-webpart-base": "1.21.1",
+    "@pnp/core": "^4.5.0",
+    "@pnp/nodejs": "^4.18.0",
+    "@pnp/sp": "^4.5.0",
+    "d3": "^7.9.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "tslib": "2.3.1"
+  },
+  "devDependencies": {
+    "@microsoft/eslint-config-spfx": "1.21.1",
+    "@microsoft/eslint-plugin-spfx": "1.21.1",
+    "@microsoft/rush-stack-compiler-4.7": "0.1.0",
+    "@microsoft/sp-build-web": "1.21.1",
+    "@microsoft/sp-module-interfaces": "1.21.1",
+    "@rushstack/eslint-config": "^3.6.5",
+    "@types/d3": "^7.4.3",
+    "@types/d3-dispatch": "^3.0.5",
+    "@types/react": "17.0.45",
+    "@types/react-dom": "17.0.17",
+    "@types/webpack-env": "~1.15.2",
+    "ajv": "^8.18.0",
+    "eslint": "^8.7.0",
+    "gulp": "4.0.2",
+    "typescript": ">=4.7.4 <5.4.0"
+  }
+}

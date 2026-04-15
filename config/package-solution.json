@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "process-intelligence-map-client-side-solution",
+    "id": "2f8a4c8b-1d3e-4b5f-9a2c-6e7d8f9a0b1c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Process Intelligence Map"
+      },
+      "longDescription": {
+        "default": "Supply chain process mapping tool with D3 force graph"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "Process Intelligence Map Feature",
+        "description": "Deploys the Process Intelligence Map web part",
+        "id": "3f9a4c8b-2d3e-4b5f-9a2c-6e7d8f9a0b1d",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/process-intelligence-map.sppkg"
+  }
+}

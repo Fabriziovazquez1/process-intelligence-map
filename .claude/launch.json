@@ -1,0 +1,13 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "SPFx Workbench (gulp serve)",
+      "runtimeExecutable": "/bin/bash",
+      "runtimeArgs": [
+        "/Users/fabriziovazquez/Downloads/process-intelligence-map-spfx/serve.sh"
+      ],
+      "port": 4321
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "a1b2c3d4-1234-5678-abcd-ef1234567890",
+  "alias": "ProcessIntelligenceMapWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab"],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": { "default": "Other" },
+      "title": { "default": "Process Intelligence Map" },
+      "description": { "default": "Supply chain process mapping with force-directed graph" },
+      "officeFabricIconFontName": "Flow",
+      "properties": {
+        "siteUrl": ""
+      }
+    }
+  ]
+}

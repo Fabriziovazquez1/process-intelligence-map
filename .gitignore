@@ -1,0 +1,9 @@
+node_modules
+dist
+lib
+solution
+temp
+.yo-resolve
+*.sppkg
+.DS_Store
+.env
